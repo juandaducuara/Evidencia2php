@@ -22,6 +22,19 @@
             <input type="submit" value="Ingresar">
         </div>
     </form>
+    <?php
+                $usuario = 'JuanDa13';
+                $clave = '123abc';
+
+                $usu=$_POST['usuario'];
+                $clave=$_POST['clave'];
+
+                if ($usu == $usuarios && $pass == $password){
+                    echo "<h2>Ingreso exitoso</h2>";
+                }else{
+                    echo "<h2>Usuario o contraseña incorrectos</h2>";
+                }
+            ?>
 </body>
 
 </html>
