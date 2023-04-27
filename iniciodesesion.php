@@ -13,7 +13,7 @@
     <h2>Inicio de sesión</h2>
     <form action="" method="get">
         <div class="input">
-            <input type="text" name="Usuario" pattern="[A-Za-z0-9]{4,10}" title="No debe utlizar caracteres especiales" required placeholder="Número de documento" oninput="this.value = this.value.replace(/[^A-Za-z0-9]/g, '').replace(/(\..*)\./g, '$1');">
+            <input type="text" name="Usuario" pattern="[A-Za-z0-9]{4,10}" title="No debe utlizar caracteres especiales" required placeholder="Ingrese usuario" oninput="this.value = this.value.replace(/[^A-Za-z0-9]/g, '').replace(/(\..*)\./g, '$1');">
         </div>
         <div class="input">
             <input type="password" name="Clave" pattern="^[A-Za-z0-9]{3,18}" required placeholder="Ingrese la contraseña" oninput="this.value = this.value.replace(/[^A-Za-z0-9*-_?$.,]/g, '').replace(/(\..*)\./g, '$1');">
